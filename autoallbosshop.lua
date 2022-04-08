@@ -299,7 +299,7 @@ getgenv().TweenSpeedTeleportPlace = 350
 getgenv().TweenSpeedAutoChest = 350
 getgenv().NearNextIsland = false
 getgenv().AutoBuso = true
-getgenv().AutoObservation = false
+--getgenv().AutoObservation = false
 getgenv().AutoAllBoss = false
 --Default Setting
 --[[getgenv().Setting = {
