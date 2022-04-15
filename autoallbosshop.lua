@@ -131,7 +131,8 @@ getgenv().BringFruit = false
 --Will Stop AutoFarming If You Turn On These Two Below
 getgenv().TeleportFruit = false
 getgenv().NaturalFruit = false
-getgenv().AutoBuyRandomFruit = false
+getgenv().AutoBuyRandomFruit = true
+AutoStoreFruit = true
 --Loading Game
 repeat wait()
 until game:IsLoaded()
