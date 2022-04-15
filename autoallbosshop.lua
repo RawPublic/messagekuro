@@ -5697,7 +5697,7 @@ end
 local AutoStuffs = MainPage:addSection("Auto Other Stuffs")
 if SecondSea then
    AutoStuffs:addToggle("Auto Buy Legendary Sword",getgenv().AutoBuyLegendarySword,function(Value)
-      getgenv().AutoBuyLegendarySword = true
+      getgenv().AutoBuyLegendarySword = Value
    end)
 end
 
