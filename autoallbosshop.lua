@@ -299,8 +299,9 @@ getgenv().TweenSpeedTeleportPlace = 350
 getgenv().TweenSpeedAutoChest = 350
 getgenv().NearNextIsland = false
 getgenv().AutoBuso = true
---getgenv().AutoObservation = false
+getgenv().AutoObservation = true
 getgenv().AutoAllBoss = false
+getgenv().AutoBuyLegendarySword = true
 --Default Setting
 --[[getgenv().Setting = {
    AutoFarmQuest = getgenv().AutoFarmQuest;
@@ -328,6 +329,7 @@ getgenv().AutoAllBoss = false
    TweenSpeedAutoChest = getgenv().TweenSpeedAutoChest;
    AutoBuso = getgenv().AutoBuso;
    AutoObservation = getgenv().AutoObservation;
+   AutoBuyLegendarySword = getgenv().AutoBuyLegendarySword;
    MinuteToRejoin = getgenv().MinuteToRejoin
 }]]
 getgenv().Setting = {
@@ -356,6 +358,7 @@ getgenv().Setting = {
    getgenv().TweenSpeedAutoChest;
    getgenv().AutoBuso;
    getgenv().AutoObservation;
+   getgenv().AutoBuyLegendarySword;
 }
 --Define Functions
 local function getRoot(char)
