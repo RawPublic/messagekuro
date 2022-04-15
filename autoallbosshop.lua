@@ -132,7 +132,6 @@ getgenv().BringFruit = false
 getgenv().TeleportFruit = false
 getgenv().NaturalFruit = false
 getgenv().AutoBuyRandomFruit = true
-AutoStoreFruit = true
 --Loading Game
 repeat wait()
 until game:IsLoaded()
@@ -5838,7 +5837,7 @@ Fruits:addToggle("Auto Buy Devil Fruit In Shop",false,function(Value)
       end
    end	
 end)
-Fruits:addToggle("Auto Store Fruits",false,function(value)
+Fruits:addToggle("Auto Store Fruits",false,function(true)
    AutoStoreFruit = value
    while AutoStoreFruit do
       StoredFruit = FruitTable
