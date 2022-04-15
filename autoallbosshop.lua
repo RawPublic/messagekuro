@@ -3417,7 +3417,7 @@ for i,v in pairs(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServe
    end
 end
 --Ui
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/Island_Game/main/version.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RawPublic/messagekuro/main/versionhub.lua"))()
 repeat wait()
 until getgenv().Version ~= nil
 lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/Island_Game/main/venyxUi.lua"))().new(getgenv().Version)
