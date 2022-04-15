@@ -5837,8 +5837,8 @@ Fruits:addToggle("Auto Buy Devil Fruit In Shop",false,function(Value)
       end
    end	
 end)
-Fruits:addToggle("Auto Store Fruits",false,function(true)
-   AutoStoreFruit = value
+Fruits:addToggle("Auto Store Fruits",false,function(value)
+   AutoStoreFruit = true
    while AutoStoreFruit do
       StoredFruit = FruitTable
       wait(1)
