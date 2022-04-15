@@ -3430,9 +3430,9 @@ end
 if getgenv().GlowColorChange ~= nil then
    lib:setTheme("TextColor",getgenv().GlowColorChange )
 end
-lib:Notify("Island","Ui Made by Denosaur")
+lib:Notify("NugrahaFX HUB","Ui Made by Nugraha")
 wait(1)
-lib:Notify("Island","Loading Functions + Data")
+lib:Notify("NugrahaFX HUB","Loading Functions + Data")
 spawn(function()
    while wait() do
       if getgenv().RainbowUi then
